@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.div-body {
+  max-width: 1000px;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.div-banner-img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.div-botton-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.div-botton-left {
+  width: 200px;
+  box-sizing: border-box;
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #111;
+  font-family: "Google Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div-botton-left button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #111;
+  font-family: "Google Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.div-botton-left button.active {
+  background-color: #141414;
+  outline: 1px solid #858585;
+  color: #fff;
+}
+
+.div-botton-right {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.div-card {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid #dddddd46;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+}
+
+.div-card h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 600;
+}
+
+.div-card img {
+  width: 100px;
+}
+
+.div-card div {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+#p-description-data {
+    color: #666666;
+}
+
+#p-price {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    transform: translateY(-50%);
+}
