@@ -31,42 +31,46 @@ function App() {
 
     return () => clearInterval(time);
   }, [email])
-  
+
   let filterItems = [];
   if (items) {
-    filterItems = items.filter(([name, item]) => {return item.category == menuCategory;})
+    filterItems = items.filter(([name, item]) => { return item.category == menuCategory; })
   }
 
   return (
     <>
       <div className="div-body">
-        <div className="div-banner">
-          <div className="div-banner-img" style={{ backgroundImage: `url(${bannerImg})` }} />
-          <h1>{bannerTitle}</h1>
-          <p>{bannerDescription}</p>
-        </div>
-        <div className="div-botton-menu">
-          <div className="div-botton-left">
-            <button className={menuCategory == 'Bebidas' ? 'active' : ''}  onClick={(e) => {setMenuCategory('Bebidas')}}>Bebidas</button>
-            <button className={menuCategory == 'Tapas' ? 'active' : ''} onClick={(e) => {setMenuCategory('Tapas')}}>Tapas</button>
-            <button className={menuCategory == 'Bocadillos' ? 'active' : ''} onClick={(e) => {setMenuCategory('Bocadillos')}}>Bocadillos</button>
-            <button className={menuCategory == 'Platos' ? 'active' : ''} onClick={(e) => {setMenuCategory('Platos')}}>Platos</button>
-            <button className={menuCategory == 'Postres' ? 'active' : ''} onClick={(e) => {setMenuCategory('Postres')}}>Postres</button>
+        <div className="div-body-width">
+
+          <div className="div-banner">
+            <div className="div-banner-img" style={{ backgroundImage: `url(${bannerImg})` }} />
+            <h1>{bannerTitle}</h1>
+            <p>{bannerDescription}</p>
           </div>
-          <div className="div-botton-right">
-            {filterItems.map(([name, item]) => {
-              return (
-                <div key={name} className="div-card">
-                  <img src={item.img} alt="" />
-                  <div>
-                    <h3>{item.name}</h3>
-                    <p id="p-description-data">{item.description}</p>
+          <div className="div-botton-menu">
+            <div className="div-botton-left">
+              <button className={menuCategory == 'Bebidas' ? 'active' : ''} onClick={(e) => { setMenuCategory('Bebidas') }}>Bebidas</button>
+              <button className={menuCategory == 'Tapas' ? 'active' : ''} onClick={(e) => { setMenuCategory('Tapas') }}>Tapas</button>
+              <button className={menuCategory == 'Bocadillos' ? 'active' : ''} onClick={(e) => { setMenuCategory('Bocadillos') }}>Bocadillos</button>
+              <button className={menuCategory == 'Platos' ? 'active' : ''} onClick={(e) => { setMenuCategory('Platos') }}>Platos</button>
+              <button className={menuCategory == 'Postres' ? 'active' : ''} onClick={(e) => { setMenuCategory('Postres') }}>Postres</button>
+            </div>
+            <div className="div-botton-right">
+              {filterItems.map(([name, item]) => {
+                return (
+                  <div key={name} className="div-card">
+                    <img src={item.img} alt="" />
+                    <div>
+                      <h3>{item.name}</h3>
+                      <p id="p-description-data">{item.description}</p>
+                    </div>
+                    <p id="p-price">{item.price} €</p>
                   </div>
-                  <p id="p-price">{item.price} €</p>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
+
         </div>
       </div>
     </>

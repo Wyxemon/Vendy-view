@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 .div-body {
-  max-width: 1000px;
+  width: 100vw;
   height: 100vh;
   background-color: #fff;
   display: flex;
@@ -12,6 +12,11 @@
   padding: 20px;
   flex-direction: column;
   overflow-x: hidden;
+}
+
+.div-body-width {
+  max-width: 1000px;
+  height: 100vh;
 }
 
 .div-banner-img {
