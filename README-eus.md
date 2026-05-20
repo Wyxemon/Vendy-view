@@ -13,6 +13,8 @@ Vendy aplikazioan sortutako produktuak erakusteko web aplikazio modernoa. Sistem
   </a>
 </p>
 
+![Preview del proyecto](./preview.png)
+
 ##  Instalación y ejecución
 
 ```bash
