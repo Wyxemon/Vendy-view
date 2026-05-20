@@ -32,6 +32,6 @@ npm run dev
 
 ##  Tecnologías
 
-- **React** — Biblioteca de interfaz de usuario
-- **Vite** — Bundler y servidor de desarrollo
-- **Firebase** — Backend y base de datos en tiempo real
+- **React** -> Biblioteca de interfaz de usuario
+- **Vite** —> Bundler y servidor de desarrollo
+- **Firebase** —> Backend y base de datos en tiempo real
