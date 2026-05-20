@@ -4,10 +4,10 @@ Web moderna para mostrar los productos creados en la aplicación web de Vendy. E
 
 <p align="left">
   <a href="https://vendy-view.vercel.app/?email=ejemplopublico@vendy.com">
-    <img src="https://img.shields.io/badge/Webgunea_ikusi-0078D6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Ver_web-0078D6?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
-  <a href="https://github.com/Wyxemon/Vendy">
-    <img src="https://img.shields.io/badge/Español-24292F?style=for-the-badge&logo=googletranslate&logoColor=white" />
+  <a href="https://github.com/Wyxemon/Vendy-view/blob/main/README-eus.md">
+    <img src="https://img.shields.io/badge/Euskera-24292F?style=for-the-badge&logo=googletranslate&logoColor=white" />
   </a>
 </p>
 
