@@ -1,18 +1,37 @@
-# React + Vite
+# Vendy-view
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web moderna para mostrar los productos creados en la aplicación web de Vendy. Este sistema se utiliza para mostrar los productos tanto en la aplicación de escritorio como en web, desarrollada mediante React y Vite.
 
-Currently, two official plugins are available:
+<p align="left">
+  <a href="https://vendy-view.vercel.app/?email=ejemplopublico@vendy.com">
+    <img src="https://img.shields.io/badge/Webgunea_ikusi-0078D6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/Wyxemon/Vendy">
+    <img src="https://img.shields.io/badge/Español-24292F?style=for-the-badge&logo=googletranslate&logoColor=white" />
+  </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Preview del proyecto](./preview.png)
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+##  Instalación y ejecución
 
-Note: This will impact Vite dev & build performances.
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/Wyxemon/Vendy-view
 
-## Expanding the ESLint configuration
+# 2. Entra en la carpeta del proyecto
+cd Vendy-view
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 3. Instala las dependencias
+npm install
+
+# 4. Inicia el servidor de desarrollo
+npm run dev
+```
+
+##  Tecnologías
+
+- **React** — Biblioteca de interfaz de usuario
+- **Vite** — Bundler y servidor de desarrollo
+- **Firebase** — Backend y base de datos en tiempo real
